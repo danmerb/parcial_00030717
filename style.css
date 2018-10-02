@@ -1,0 +1,136 @@
+:root {
+    box-sizing: border-box;
+    font-size: calc(0.5em + 1vw);
+
+}
+*,::before,::after {
+    box-sizing: inherit;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+
+}
+header{
+    font-family:'Monoton', cursive;
+    height: 100vh;
+    width: 100%;
+    background: url(img/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
+
+
+.menu{
+    background-color: #000000;    
+    margin-top:0%; 
+    padding-top: 0%;
+    width: 100%;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size:25px; 
+     
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+.menu ul li{
+    color: #fafafa;
+    list-style: none;
+    padding: 1em;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.logo{
+    height:110px;
+    width:110px;
+    position: relative;
+    border: #000000;
+    z-index: 100;
+    padding: 25px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+
+}
+header div{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    grid-column-gap: .3em;
+    width: 100%;
+}
+
+.container1{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+.container1 h1{
+    font-family: 'Monoton', cursive;
+    font-size: 100px;
+}
+.container1 h2{
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+}
+.container1 a{
+    color: #ffffff;
+    height:110px;
+    width:110px;
+}
+
+main img imagen1{
+    height:25%;
+    width:100%;
+    object-fit: contain;
+    position: relative;
+    top: 2em;
+    margin-bottom: 25px;
+}
+
+main img{
+    height:50%;
+    width:100%;
+    object-fit: contain;
+    position: relative;
+    top: 2em;
+    margin-bottom: 25px;
+}
+main div{
+    padding: 0 .5em .5em .5em;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border-radius: 0.5em;
+    border: 1px #c4c4be solid;
+    margin: 5px;
+}
+
+
+
+
+
+
+
